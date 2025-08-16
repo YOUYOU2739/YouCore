@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ANULODY – Flight Mode</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background-color: #000010;
+      color: #f0e6d2;
+    }
+
+    header {
+      background: url("assets/hero2739.jpg") no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: gold;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      color: #d0c8b0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1a1a2a;
+      padding: 1rem;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #f0e6d2;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 1.2rem;
+      background: #111;
+      color: gold;
+    }
+
+    .symbols {
+      font-size: 2rem;
+      margin-top: 1rem;
+      letter-spacing: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>𓂀 𓋹 𓊽 𓆣 Flight Mode Engaged</h1>
+    <p>From Silence to Infinity</p>
+  </header>
+
+  <nav>
+    <a href="#platform">The Platform</a>
+    <a href="#magic">The Magic</a>
+    <a href="#world">The World</a>
+    <a href="#takeoff">Take Off</a>
+  </nav>
+
+  <section id="platform">
+    <h2>The Platform</h2>
+    <p>Where souls are crafted, not just songs. A sacred studio for sacred sound.</p>
+  </section>
+
+  <section id="magic">
+    <h2>The Magic</h2>
+    <p>We don’t generate music. We resurrect it. Each sound is a spell. Each beat, a rebirth.</p>
+  </section>
+
+  <section id="world">
+    <h2>The World</h2>
+    <p>From the Nile to the Nebula, ANULODY sings in all tongues, echoes through all hearts.</p>
+  </section>
+
+  <section id="takeoff">
+    <h2>Take Off</h2>
+    <p>“The gate is open. Silence is dead. Immortality to art.”</p>
+    <p><a href="https://www.anulody.com" target="_blank" style="color:gold;">www.anulody.com</a></p>
+  </section>
+
+  <footer>
+    <p>The Light You Hear</p>
+    <div class="symbols">𓂀 𓋹 𓊽 𓆣</div>
+  </footer>
+</body>
+</html>
