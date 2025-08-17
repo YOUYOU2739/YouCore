@@ -3,114 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ANULODY – Flight Mode</title>
+  <title>Flight Mode – ANULODY</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Cinzel', serif;
-      background-color: #000010;
-      color: #f0e6d2;
-    }
-
-    header {
-      background: url("assets/hero2739.jpg") no-repeat center center/cover;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000014;
+      color: #F5EEDA;
+      text-align: center;
+      background-image: url('hero2739.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
     }
 
-    header h1 {
-      font-size: 3rem;
-      color: gold;
-      margin: 0;
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      height: 100%;
+      padding: 100px 20px 40px;
+      box-sizing: border-box;
     }
 
-    header p {
-      font-size: 1.5rem;
-      margin-top: 1rem;
-      color: #d0c8b0;
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+      letter-spacing: 2px;
     }
 
-    nav {
-      display: flex;
-      justify-content: center;
-      background: #1a1a2a;
-      padding: 1rem;
-      gap: 2rem;
-      position: sticky;
-      top: 0;
-      z-index: 100;
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto 1.5em;
+      line-height: 1.6em;
     }
 
-    nav a {
-      text-decoration: none;
-      color: #f0e6d2;
-      font-weight: bold;
+    .cta-button {
+      margin-top: 2em;
+      padding: 14px 32px;
+      font-size: 1.1em;
+      background: #FFD700;
+      color: #000;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
     }
 
-    section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 1.2rem;
-      background: #111;
-      color: gold;
+    .cta-button:hover {
+      background: #fff;
+      color: #000;
     }
 
     .symbols {
-      font-size: 2rem;
-      margin-top: 1rem;
-      letter-spacing: 1rem;
+      margin-top: 3em;
+      font-size: 1.8em;
+      color: #F5EEDA;
+      letter-spacing: 0.3em;
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 2em;
+      color: #ccc;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    .back-link:hover {
+      color: #fff;
     }
   </style>
 </head>
-
 <body>
-  <header>
-    <h1>𓂀 𓋹 𓊽 𓆣 Flight Mode Engaged</h1>
-    <p>From Silence to Infinity</p>
-  </header>
+  <div class="overlay">
+    <h1>Flight Mode: ON</h1>
+    <p>
+      Welcome to the music production sanctuary.  
+      Where silence dies, and art becomes immortal.  
+      Enter the Temple of Sound.
+    </p>
+    <button class="cta-button" onclick="window.location.href='https://www.anulody.com';">Enter ANULODY</button>
 
-  <nav>
-    <a href="#platform">The Platform</a>
-    <a href="#magic">The Magic</a>
-    <a href="#world">The World</a>
-    <a href="#takeoff">Take Off</a>
-  </nav>
-
-  <section id="platform">
-    <h2>The Platform</h2>
-    <p>Where souls are crafted, not just songs. A sacred studio for sacred sound.</p>
-  </section>
-
-  <section id="magic">
-    <h2>The Magic</h2>
-    <p>We don’t generate music. We resurrect it. Each sound is a spell. Each beat, a rebirth.</p>
-  </section>
-
-  <section id="world">
-    <h2>The World</h2>
-    <p>From the Nile to the Nebula, ANULODY sings in all tongues, echoes through all hearts.</p>
-  </section>
-
-  <section id="takeoff">
-    <h2>Take Off</h2>
-    <p>“The gate is open. Silence is dead. Immortality to art.”</p>
-    <p><a href="https://www.anulody.com" target="_blank" style="color:gold;">www.anulody.com</a></p>
-  </section>
-
-  <footer>
-    <p>The Light You Hear</p>
     <div class="symbols">𓂀 𓋹 𓊽 𓆣</div>
-  </footer>
+    <a class="back-link" href="index.html">← Back to Main Gate</a>
+  </div>
 </body>
 </html>
-
