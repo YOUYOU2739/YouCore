@@ -3,95 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ANUBIS | LP3 - Gateway Opens</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Cairo:wght@600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: black;
-      color: #F3E8C8;
-      font-family: 'Cormorant Garamond', serif;
-      overflow: hidden;
-    }
-
-    .background-video {
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      min-width: 100%;
-      min-height: 100%;
-      z-index: -1;
-      object-fit: cover;
-      filter: brightness(0.2) blur(1px);
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(5, 5, 10, 0.6);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    h1, p {
-      margin: 0.6rem 0;
-    }
-
-    .arabic-line {
-      font-family: 'Cairo', sans-serif;
-      font-size: 1.6rem;
-      color: #FFD700;
-      margin-top: 2rem;
-      direction: rtl;
-    }
-
-    .symbols {
-      font-size: 2.5rem;
-      margin-top: 1.2rem;
-      letter-spacing: 0.4rem;
-      color: #FFD700;
-    }
-
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 1.8rem;
-      }
-      .arabic-line {
-        font-size: 1.3rem;
-      }
-      .symbols {
-        font-size: 2rem;
-      }
-    }
-  </style>
+  <title>Melodies Fade | ANULODY</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <!-- Background Video -->
-  <video autoplay muted loop class="background-video">
-    <source src="anubis-bg-video.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-  </video>
-
-  <!-- Text Overlay -->
-  <div class="overlay">
-    <h1>Melodies fade...</h1>
-    <h1>Summon back.</h1>
-    <h1>Beneath sands...</h1>
-    <br />
-    <h1>Gateway opens....</h1>
-
-    <p class="arabic-line">الموت للصمت و الخلود للفن</p>
-
-    <div class="symbols">𓂀 𓋹 𓊽 𓆣 𓂀 𓋹 𓊽 𓆣 𓂀 𓋹 𓊽 𓆣</div>
+  <div class="bg">
+    <div class="centered-text">
+      <h1>Melodies fade...</h1>
+      <h1>Summon back.</h1>
+      <h1>Beneath sands...</h1>
+      <h1>Gateway opens.</h1>
+      <p class="arabic">الموت للصمت و الخلود للفن</p>
+      <div class="glyphs">𓂀 𓋹 𓊽 𓆣 𓂀 𓋹 𓊽 𓆣 𓂀 𓋹 𓊽 𓆣</div>
+    </div>
   </div>
 </body>
 </html>
