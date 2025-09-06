@@ -1,16 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>ANULODY | LP3 Final</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ANULODY™ | Code Temple ⚡️</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="hero">
-        <h1>Welcome to ANULODY</h1>
-        <p>This is where the music is reborn.</p>
-        <a href="anubis.html" class="button">Enter the Temple</a>
-    </div>
+  <div class="overlay"></div>
+  <div class="hero-container">
+    <button class="flight-btn" onclick="launchTemple()">Take Flight</button>
+  </div>
+
+  <audio id="gateSound" src="assets/sound/gate.mp3" preload="auto"></audio>
+
+  <script>
+    function launchTemple() {
+      document.getElementById('gateSound').play();
+      setTimeout(() => {
+        window.location.href = "anubis.html";
+      }, 1000);
+    }
+  </script>
 </body>
 </html>
